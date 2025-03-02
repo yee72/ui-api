@@ -1,6 +1,9 @@
 import requests
 
 # get_email = "enj17hz5@yzm.de"
+# print(type(get_email))
+
+
 def login(get_email):
     url = "https://api.distribute.ai/internal/auth/login"
     headers = {'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
