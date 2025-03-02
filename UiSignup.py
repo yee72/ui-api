@@ -32,6 +32,7 @@ submit_button = driver.find_element(By.CSS_SELECTOR, "[type='submit']")
 submit_button.click()
 
 # 进入邮箱点击激活账号
+
 driver.switch_to.window(driver.window_handles[0])
 time.sleep(100)
 
