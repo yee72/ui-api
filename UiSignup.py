@@ -44,7 +44,6 @@ link_url = verify_link.get_attribute("href")
 verify_link.click()
 
 
-
 # 接口获取token
 get_token = login(get_email)
 
